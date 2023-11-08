@@ -1,2 +1,4 @@
+import util
+
 if '__main__' == __name__:
-    print('Hello World!')
+    util.homogenize_raw_images(600, 600, 'png')
